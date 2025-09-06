@@ -23,8 +23,8 @@ task = {
     "08": "Task08_HepaticVessel",
     "09": "Task09_Spleen",
     "10": "Task10_Colon",
-    "11": "BraTS2021_train",
-    "12": "BraTS2021_val",
+    "11": "BraTS2023_train",
+    "12": "BraTS2023_val",
 }
 
 patch_size = {

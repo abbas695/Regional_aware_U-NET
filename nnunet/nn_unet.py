@@ -188,15 +188,7 @@ class NNUnet(pl.LightningModule):
                 weights += 0.5**(i+1)
             c_norm = 1 / (2 - 2 ** (-len(preds)))
             return loss
-        """
-        if self.args.brats22_model:
-            loss = self.loss(preds[0], label,self.current_epoch)
-            for i, pred in enumerate(preds[1:]):
-                upsampled_pred = nn.functional.interpolate(pred, label.shape[2:])
-                loss += 0.5 ** (i + 1) * self.loss(upsampled_pred, label,self.current_epoch)
-            c_norm = 1 / (2 - 2 ** (-len(preds)))
-            return c_norm * loss
-        """
+  
         if self.args.deep_supervision:
             loss, weights = 0.0, 0.0
             for i in range(preds.shape[1]):

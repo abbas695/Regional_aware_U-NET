@@ -16,9 +16,9 @@ import matplotlib as mpl
 start = time.time()
 
 # Absolute path to data folder
-pa = r'G:\files from windows 11\DATA SETS\Brats2021'
+pa = r'G:\files from windows 11\DATA SETS\Brats2023'
 Predicted_list_t1 = sorted(glob.glob('results/tuned_mrbrains/final_preds_please/*'))
-Actual_list = sorted(glob.glob('data_brain_mri/BraTS2021_train/labels/*'))
+Actual_list = sorted(glob.glob('data_brain_mri/BraTS2023_train/labels/*'))
 
 print(len(Predicted_list_t1))
 Case_list = []

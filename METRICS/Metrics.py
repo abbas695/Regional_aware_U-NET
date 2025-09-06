@@ -303,7 +303,7 @@ def to_categorical(y, num_classes=None):
     return categorical
 
 
-# pa = "C:\\Users\\bedox\\Desktop\\DATA SETS\\Brats2021"
+# pa = "C:\\Users\\bedox\\Desktop\\DATA SETS\\Brats2023"
 # Actual_list = sorted(glob.glob(pa + '/GT 1417 1441/*'))
 # Predicted_list = sorted(glob.glob(pa + '/TEST FOLDER FOR MODELS PREPROCESSING/*'))
 # #
@@ -334,8 +334,8 @@ def to_categorical(y, num_classes=None):
 
 #####################
 if __name__ == "__main__":
-    GT_seg1 = np.around(nib.load(r"G:\files from windows 11\DATA SETS\Brats2021\cycle_gt\BraTS2021_01490_seg.nii.gz").get_fdata())
-    seg_pred = np.around(nib.load(r"C:\Users\bedox\Downloads\BraTS2021_01490.nii.gz").get_fdata())
+    GT_seg1 = np.around(nib.load(r"G:\files from windows 11\DATA SETS\Brats2023\cycle_gt\BraTS2023_01490_seg.nii.gz").get_fdata())
+    seg_pred = np.around(nib.load(r"C:\Users\bedox\Downloads\BraTS2023_01490.nii.gz").get_fdata())
 
     # print((Actual_list[i]))
     # print((Predicted_list[i]))
