@@ -7,7 +7,7 @@ In this paper, we introduce a novel deep learning framework designed to exploit 
 <img src="https://github.com/user-attachments/assets/355249af-3da2-43ff-9029-494a6fe0d89d">
 
 ## Results
-### BraTS 2021 & BraTS Africa
+### BraTS 2023 & BraTS Africa
 <img src='https://github.com/user-attachments/assets/e329fc70-2fb8-4df5-9130-e07b3d7ca026'>
 
 ### BraTS 2024 & MRBrainS18
@@ -16,31 +16,31 @@ In this paper, we introduce a novel deep learning framework designed to exploit 
 
 ## Prerequisites
 <ul>
-  <li>Download the dataset <a href='https://www.med.upenn.edu/cbica/brats2021/#Data2'>from this link</a></li>
+  <li>Download the dataset <a href='https://www.med.upenn.edu/cbica/brats2023/#Data2'>from this link</a></li>
   <li>Required folder structure</li>
   
   ```
   /data 
  │
- ├───BraTS2021_train
- │      ├──BraTS2021_00000 
- │      │      └──BraTS2021_00000_flair.nii.gz
- │      │      └──BraTS2021_00000_t1.nii.gz
- │      │      └──BraTS2021_00000_t1ce.nii.gz
- │      │      └──BraTS2021_00000_t2.nii.gz
- │      │      └──BraTS2021_00000_seg.nii.gz
- │      ├──BraTS2021_00002
- │      │      └──BraTS2021_00002_flair.nii.gz
+ ├───BraTS2023_train
+ │      ├──BraTS2023_00000 
+ │      │      └──BraTS2023_00000_flair.nii.gz
+ │      │      └──BraTS2023_00000_t1.nii.gz
+ │      │      └──BraTS2023_00000_t1ce.nii.gz
+ │      │      └──BraTS2023_00000_t2.nii.gz
+ │      │      └──BraTS2023_00000_seg.nii.gz
+ │      ├──BraTS2023_00002
+ │      │      └──BraTS2023_00002_flair.nii.gz
  │      ...    └──...
  │
- └────BraTS2021_val
-        ├──BraTS2021_00001 
-        │      └──BraTS2021_00001_flair.nii.gz
-        │      └──BraTS2021_00001_t1.nii.gz
-        │      └──BraTS2021_00001_t1ce.nii.gz
-        │      └──BraTS2021_00001_t2.nii.gz
-        ├──BraTS2021_00002
-        │      └──BraTS2021_00002_flair.nii.gz
+ └────BraTS2023_val
+        ├──BraTS2023_00001 
+        │      └──BraTS2023_00001_flair.nii.gz
+        │      └──BraTS2023_00001_t1.nii.gz
+        │      └──BraTS2023_00001_t1ce.nii.gz
+        │      └──BraTS2023_00001_t2.nii.gz
+        ├──BraTS2023_00002
+        │      └──BraTS2023_00002_flair.nii.gz
         ...    └──...
   ```
 
